@@ -10,39 +10,19 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp
 {
-    public partial class Form1 : Form
+    public partial class Arithmetic_Operations : Form
     {
 
         private int operand1;
         private int operand2;
         private string selectedOperation;
 
-        public Form1()
+        public Arithmetic_Operations()
         {
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
